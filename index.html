@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+     <div class="seccion display">
+    <h2>Display</h2>
+
+    <h2>Display: block</h2>
+    <div class="block">Display: block</div>
+
+    <h2>Display: inline</h2>
+    <div class="inline">
+      <span>Display:</span>
+      <span>inline</span>
+      <span>como texto</span>
+    </div>
+
+    <h2>Display: inline-block</h2>
+    <div class="inline-block">
+      <div>Uno</div>
+      <div>Dos</div>
+    </div>
+
+    <h2>Display: none</h2>
+    <div class="none">Esto tiene display: none y no deberías verlo.</div>
+  </div>
+
+  <div class="seccion position">
+    <h2>Position</h2>
+
+    <h2>Position: static</h2>
+    <div class="position-box static">Static (posición por defecto)</div>
+
+    <h2>Position: relative</h2>
+    <div class="position-box relative">Relative (movido 30px a la derecha)</div>
+
+    <h2>Position: absolute</h2>
+    <div class="absolute-wrapper">
+      <div class="position-box absolute">Absolute (respecto al contenedor)</div>
+    </div>
+
+    <h2></h2>
+    <div class="position-box fixed">Fixed (siempre visible)</div>
+
+    <h2>Position: sticky</h2>
+    <div class="sticky-container">
+      <div class="sticky">Sticky (queda fijo al hacer scroll)</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Se encuentra en una zona de mucho veneno. La variedad digna de lorem no es un conjunto ordenado.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. La dignidad del dolor no es ruidosa, sino que fermenta con el precio del arco.</p>
+      <p>Desplázate para ver cómo esta barra sticky se queda fija..</p>
+    </div>
+
+  </div>
+  <h2>Flexbox básico </h2>
+  <div class="seccion">
+    <div class="contenedor">
+      <div class="item">a</div>
+      <div class="item">b</div>
+      <div class="item">c</div>
+    </div>
+  </div>
+
+  <h2>justify-content: center</h2>
+  <div class="seccion">
+    <div class="contenedor center">
+      <div class="item">D</div>
+      <div class="item">E</div>
+    </div>
+  </div>
+
+  <h2>justify-content: space-between</h2>
+  <div class="seccion">
+    <div class="contenedor space-between">
+      <div class="item">F</div>
+      <div class="item">G</div>
+    </div>
+  </div>
+
+  <h2>align-items: flex-start</h2>
+  <div class="seccion">
+    <div class="contenedor flex-start">
+      <div class="item" style="height: 20px;">A</div>
+      <div class="item" style="height: 50px;">C</div>
+      <div class="item" style="height: 30px;">A</div>
+    </div>
+  </div>
+
+  <h2>flex-direction: column + align-items: flex-end</h2>
+  <div class="seccion">
+    <div class="contenedor column-end">
+      <div class="item">cuatro</div>
+      <div class="item">ocho</div>
+      <div class="item">nueve</div>
+    </div>
+  </div>
+
+  <h2>Ejemplo de Grid: grid-template-columns + grid-gap</h2>
+  <div class="seccion">
+    <div class="grid">
+      <div class="item">3</div>
+      <div class="item">6</div>
+      <div class="item">9</div>
+      <div class="item">12</div>
+      <div class="item">15</div>
+      <div class="item">18</div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,164 @@
+body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: linear-gradient(to bottom, #a200ff, #ffe604);
+    }
+
+    h2 {
+      color: #8b0202e7;
+      margin-top: 40px;
+    }
+
+    .seccion {
+      background-color: #4b0303d2;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 10px rgba(167, 5, 5, 0.568);
+    }
+
+    .display .block {
+      display: block;
+      background-color: #4caf50;
+      color: white;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+
+    .display .inline span {
+      display: inline;
+      background-color: #2196f3;
+      color: white;
+      padding: 5px;
+      margin: 0 5px;
+    }
+
+    .display .inline-block div {
+      display: inline-block;
+      background-color: #ff9800;
+      color: white;
+      width: 120px;
+      height: 50px;
+      margin: 5px;
+      text-align: center;
+      line-height: 50px;
+    }
+
+    .display .none {
+      display: none;
+    }
+
+    .position-box {
+      width: 200px;
+      height: 80px;
+      background-color: #ffcc80;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 8px;
+    }
+
+    .static {
+      position: static;
+    }
+
+    .relative {
+      position: relative;
+      left: 30px;
+      background-color: #054274;
+    }
+
+    .absolute-wrapper {
+      position: relative;
+      height: 120px;
+      background: #3b0216;
+      margin-bottom: 20px;
+    }
+
+    .absolute {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background-color: #ec407a;
+      color: rgb(100, 5, 5);
+    }
+
+    .fixed {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background-color: #03cdff;
+      color: rgb(129, 4, 4);
+      padding: 10px;
+      z-index: 10;
+    }
+
+    .sticky-container {
+      height: 200px;
+      overflow-y: scroll;
+      background-color: #028da0;
+      padding: 10px;
+      border: 1px solid #e67373;
+    }
+
+    .sticky {
+      position: sticky;
+      top: 0;
+      background-color: #26c6da;
+      color: white;
+      padding: 10px;
+    }
+    .seccion {
+      background-color: #ffffff;
+      border: 1px dashed #ccc;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+
+    .contenedor {
+      display: flex;
+      gap: 10px;
+      background-color: #42a4eb;
+      padding: 10px;
+      min-height: 80px;
+      align-items: center;
+    }
+
+    .item {
+      background-color: #4e07f1;
+      color: rgba(131, 9, 9, 0.87);
+      padding: 10px 15px;
+      border-radius: 4px;
+      text-align: center;
+    }
+
+    .center {
+      justify-content: center;
+    }
+
+    .space-between {
+      justify-content: space-between;
+    }
+
+    .flex-start {
+      align-items: flex-start;
+      height: 100px;
+    }
+
+    .column-end {
+      flex-direction: column;
+      align-items: flex-end;
+      height: 150px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      gap: 10px;
+      background-color: #3f7205;
+      padding: 10px;
+    }
+
+    .grid .item {
+      background-color: #00a2ff;
+    }
