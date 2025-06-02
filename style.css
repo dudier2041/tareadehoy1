@@ -2,11 +2,11 @@ body {
       font-family: sans-serif;
       margin: 0;
       padding: 20px;
-      background: linear-gradient(to bottom, #a200ff, #ffe604);
+      background: linear-gradient(to bottom, #a200ff, #ffe600);
     }
 
     h2 {
-      color: #8b0202e7;
+      color: #10028be7;
       margin-top: 40px;
     }
 
@@ -15,29 +15,29 @@ body {
       border-radius: 10px;
       padding: 20px;
       margin-bottom: 30px;
-      box-shadow: 0 4px 10px rgba(167, 5, 5, 0.568);
+      box-shadow: 0 4px 10px rgb(65, 7, 7);
     }
 
     .display .block {
       display: block;
-      background-color: #4caf50;
-      color: white;
+      background-color: #4d5c0b;
+      color: rgb(248, 218, 46);
       margin-bottom: 10px;
       padding: 10px;
     }
 
     .display .inline span {
       display: inline;
-      background-color: #2196f3;
-      color: white;
+      background-color: #0228a7;
+      color: rgb(146, 119, 0);
       padding: 5px;
       margin: 0 5px;
     }
 
     .display .inline-block div {
       display: inline-block;
-      background-color: #ff9800;
-      color: white;
+      background-color: #8b540179;
+      color: rgb(4, 37, 107);
       width: 120px;
       height: 50px;
       margin: 5px;
@@ -52,7 +52,7 @@ body {
     .position-box {
       width: 200px;
       height: 80px;
-      background-color: #ffcc80;
+      background-color: #975b00c0;
       margin: 10px 0;
       padding: 10px;
       border-radius: 8px;
@@ -65,7 +65,7 @@ body {
     .relative {
       position: relative;
       left: 30px;
-      background-color: #054274;
+      background-color: #005da8;
     }
 
     .absolute-wrapper {
@@ -109,7 +109,7 @@ body {
       padding: 10px;
     }
     .seccion {
-      background-color: #ffffff;
+      background-color: #00b7ffa1;
       border: 1px dashed #ccc;
       padding: 15px;
       margin-bottom: 20px;
